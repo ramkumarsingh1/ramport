@@ -108,16 +108,19 @@ nav ul li a:hover::after{
 }
 .tab-links::after{
     content: '';
-    width: ' ';
-    height: 4px;
+    width: '';
+    height: 3px;
     background-color: #ff004f;
     position: absolute;
     left: 0;
-    bottom: -8px;
+    bottom: -6px;
     transition: 0.5s;
 }
 .tab-links.active-links::after{
     width: 50%;
+}
+.tab-links.tab-links.active-links:hover::after{
+    width: 100%;
 }
 .tab-contents ul li{
     list-style: none;
