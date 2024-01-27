@@ -108,8 +108,8 @@ nav ul li a:hover::after{
 }
 .tab-links::after{
     content: '';
-    width: 0;
-    height: 3px;
+    width: ' ';
+    height: 4px;
     background-color: #ff004f;
     position: absolute;
     left: 0;
